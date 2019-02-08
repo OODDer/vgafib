@@ -1,0 +1,69 @@
+#flexp{
+	display: flex;
+	justify-content: left;
+	position: sticky;
+	top:20px;
+	flex-direction: column;
+	left:0;
+	max-width: 20%;
+	float: left;
+	background-color: white;
+}
+
+#logo{
+	max-width: 300px;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	position: absolute;
+	right: 300px;
+	width: 60%;
+}
+
+#flexpara{
+	/*font-family: myfont;*/
+	display: flex;
+	flex-flow: column;
+}
+
+#ntext{
+	float: left;
+	flex-wrap: wrap;
+}
+
+#momo{
+	width: 400px;
+	height: 400px;
+	float: right;
+}
+#vertimg{
+	height:225px;
+	width: 400px;
+}
+
+@font-face {
+    font-family: 'myfont'; /*a name to be used later*/
+    src: url('https://github.com/OODDer/Curshtml2019_Oriol/blob/master/HindMadurai-Light.ttf'); /*URL to font*/
+}
+
+#webcursos{
+	float: right;
+}
+
+#vid{
+	width: 720px;
+	height: 410px;
+}
+
+#webcursos{
+	right: 50px;
+}
+
+#rowflex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
