@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: 'myfont'; /*a name to be used later*/
+    src: url('fonts/HindMadurai.ttf'); /*URL to font*/
+}
+
 #flexp{
 	display: flex;
 	justify-content: left;
@@ -24,7 +30,7 @@ main{
 }
 
 #flexpara{
-	/*font-family: myfont;*/
+	font-family: myfont;
 	display: flex;
 	flex-flow: column;
 }
@@ -44,10 +50,6 @@ main{
 	width: 400px;
 }
 
-@font-face {
-    font-family: 'myfont'; /*a name to be used later*/
-    src: url('https://github.com/OODDer/Curshtml2019_Oriol/blob/master/HindMadurai-Light.ttf'); /*URL to font*/
-}
 
 #webcursos{
 	float: right;
